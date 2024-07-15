@@ -18,9 +18,10 @@
   "workbench.startupEditor": "newUntitledFile",
   "workbench.tree.expandMode": "singleClick",
   "workbench.tree.indent": 10,
+  "window.title": "${rootName}", // this make tabs more readable
   "window.zoomLevel": -0.5,
   "window.autoDetectColorScheme": true,
-  
+
   // ========== Editor ==========
   "debug.onTaskErrors": "debugAnyway",
   "diffEditor.ignoreTrimWhitespace": false,
@@ -76,7 +77,7 @@
     "**/temp": true,
     "**/yarn.lock": true,
     "**/CHANGELOG*": true,
-    "**/LICENSE*": true,
+    "**/LICENSE*": true
   },
 
   // ==========  Global Level Config, needs to put in User Settings ==========
@@ -84,9 +85,11 @@
   "security.workspace.trust.enabled": false,
   "window.dialogStyle": "custom",
   "window.nativeTabs": true, // this is great, macOS only
-  "window.title": "${rootName}", // this make tabs more readable
   "window.titleBarStyle": "custom",
   "extensions.autoUpdate": "onlyEnabledExtensions",
+
+  // Prettier config
+  "prettier.enable": true,
   "prettier.printWidth": 200,
   "prettier.semi": false,
   "prettier.singleQuote": true,
@@ -143,7 +146,7 @@
     "postcss"
   ],
 
-    // ========== Extension configs ==========
+  // ========== Extension configs ==========
   "emmet.showSuggestionsAsSnippets": true,
   "emmet.triggerExpansionOnTab": false,
   "css.lint.unknownAtRules": "ignore",
@@ -151,10 +154,10 @@
     "editor.defaultFormatter": "astro-build.astro-vscode"
   },
   "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[css]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -170,5 +173,5 @@
 
   // ========== File Nesting (Disabled for now) ==========
   "explorer.fileNesting.enabled": false,
-  "explorer.fileNesting.expand": false,
+  "explorer.fileNesting.expand": false
 }
