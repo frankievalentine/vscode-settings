@@ -37,9 +37,6 @@
   "editor.hover.sticky": true,
   "explorer.compactFolders": false,
   "explorer.autoReveal": false,
-  "editor.quickSuggestions": {
-    "strings": "on"
-  },
   "files.autoSave": "onFocusChange",
   "files.eol": "\n",
   "files.insertFinalNewline": true,
