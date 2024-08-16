@@ -23,6 +23,8 @@
     "ms-vscode.remote-explorer",
     "burkeholland.simple-react-snippets",
     "bradlc.vscode-tailwindcss",
+    "jasonnutter.search-node-modules",
+    "johnpapa.vscode-cloak",
 
     // themes & icons
     "antfu.theme-vitesse",
@@ -43,8 +45,6 @@
     "antfu.file-nesting",
     "GitHub.codespaces",
     "GitHub.copilot",
-    "Prisma.prisma",
-    "jasonnutter.search-node-modules",
-    "johnpapa.vscode-cloak",
+    "Prisma.prisma"
   ]
 }
