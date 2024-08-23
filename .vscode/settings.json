@@ -18,6 +18,11 @@
   "workbench.startupEditor": "newUntitledFile",
   "workbench.tree.expandMode": "singleClick",
   "workbench.tree.indent": 10,
+  // Custom Next.js page label pattern
+  "workbench.editor.customLabels.patterns": {
+    "**/app/**/page.tsx": "${dirname} - page.tsx",
+    "**/app/**/layout.tsx": "${dirname} - layout.tsx"
+  },
   "window.title": "${rootName}",
   "window.autoDetectColorScheme": true,
   "window.zoomLevel": -0.5,
