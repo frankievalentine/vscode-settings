@@ -3,17 +3,19 @@
     // dev tools
     "astro-build.astro-vscode",
     "ms-vscode.atom-keybindings",
-    "dbaeumer.vscode-eslint",
+    "biomejs.biome",
     "esbenp.prettier-vscode",
-    "sourcegraph.cody-ai",
     "ms-vscode-remote.remote-containers",
-    "ms-azuretools.vscode-docker",
     "mikestead.dotenv",
     "EditorConfig.EditorConfig",
+    "usernamehw.errorlens",
     "tamasfe.even-better-toml",
+    "Continue.continue",
+    "denoland.vscode-deno",
     "mhutchie.git-graph",
     "donjayamanne.githistory",
     "github.vscode-github-actions",
+    "waderyan.gitblame",
     "ms-vscode.live-server",
     "ms-vsliveshare.vsliveshare",
     "unifiedjs.vscode-mdx",
@@ -23,8 +25,10 @@
     "ms-vscode.remote-explorer",
     "burkeholland.simple-react-snippets",
     "bradlc.vscode-tailwindcss",
+    "Prisma.prisma",
     "jasonnutter.search-node-modules",
     "johnpapa.vscode-cloak",
+    "Redis.redis-for-vscode",
 
     // themes & icons
     "antfu.theme-vitesse",
@@ -45,6 +49,7 @@
     "antfu.file-nesting",
     "GitHub.codespaces",
     "GitHub.copilot",
+    "pomdtr.excalidraw-editor",
     "Prisma.prisma"
   ]
 }
