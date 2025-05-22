@@ -123,6 +123,17 @@
   ],
   "typescript.inlayHints.parameterNames.enabled": "all",
 
+  // ========== MCP ==========
+  "mcp": {
+    "servers": {
+      "Context7": {
+        "type": "stdio",
+        "command": "npx",
+        "args": ["-y", "@upstash/context7-mcp"]
+      }
+    }
+  },
+
   // ========== File Nesting (Disabled for now) ==========
   "explorer.fileNesting.enabled": false,
   "explorer.fileNesting.expand": false,
